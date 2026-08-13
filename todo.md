@@ -1,0 +1,22 @@
+# Melody Hub — Scope Update Checklist
+
+- [x] Chuyển dự án từ frontend-only sang full-stack có xác thực và lưu trữ file.
+- [x] Xác định cơ chế nhận diện duy nhất tài khoản admin từ cấu hình chủ sở hữu.
+- [x] Chặn toàn bộ màn hình và API upload đối với người chưa xác thực hoặc không phải admin.
+- [x] Tạo trang đăng nhập admin và khu vực quản trị riêng, không hiển thị trong luồng người nghe thông thường.
+- [x] Cho phép admin chọn file nhạc từ desktop và mobile bằng input file responsive.
+- [x] Lưu metadata bài hát: tên, nghệ sĩ, album, thể loại, ảnh bìa, thời lượng và đường dẫn file.
+- [x] Hiển thị các bài admin đã tải lên trong thư viện công khai và cho phép phát nhạc trên mobile.
+- [x] Thêm trạng thái upload, lỗi định dạng/kích thước, hủy và hoàn tất rõ ràng.
+- [x] Kiểm thử quyền truy cập, upload, phát nhạc, layout điện thoại và build production.
+- [x] Ẩn toàn bộ CTA/lối vào admin khỏi Home công khai; chỉ hiện điều hướng quản trị với admin đã đăng nhập.
+- [x] Bổ sung tiến độ và khả năng hủy upload đang chạy trước khi dữ liệu được xuất bản.
+- [x] Kiểm thử end-to-end có phiên admin: upload tệp hợp lệ, kiểm tra bài xuất hiện ở Home và phát trên mobile; đồng thời xác nhận lỗi tệp không hợp lệ.
+- [x] Chẩn đoán và khắc phục lỗi đăng nhập OAuth tại route /admin, bao gồm callback, cookie phiên và nhận diện chủ sở hữu.
+- [x] Kiểm tra và xử lý tình trạng xác thực Google hoàn tất nhưng không quay lại callback Melody Hub.
+- [x] Đổi toàn bộ tên thương hiệu hiển thị thành Kỳ Anh PMH Mỹ Tho.
+- [x] Đưa ảnh xe mô tô người dùng cung cấp vào hero và card bìa theo đúng hệ thống asset của web.
+- [x] Thêm phần giới thiệu Kỳ Anh Gã Hề và thông điệp “Chương 2 của tương lai”.
+- [x] Kiểm thử lại nhận diện mới trên desktop và điện thoại.
+- [x] Chuẩn hóa wordmark ở header, mobile và shell quản trị thành đúng “Kỳ Anh PMH Mỹ Tho”.
+- [x] Sửa thanh tăng/giảm âm lượng để cập nhật audio đang phát trên desktop và điện thoại.
